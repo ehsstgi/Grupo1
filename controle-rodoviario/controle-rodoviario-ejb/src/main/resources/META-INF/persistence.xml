@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="CRPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/sample</jta-data-source>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Passagem</class>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Linha</class>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Viagem</class>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Cidade</class>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Carro</class>
+    <class>br.com.mackenzie.fci.si.pi2.cr.entity.Usuario</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

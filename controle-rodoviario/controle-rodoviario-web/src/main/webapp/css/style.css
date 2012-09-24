@@ -1,0 +1,121 @@
+body {
+    margin:0px;
+    background-image:url(../img/bg.png);
+    background-repeat: repeat-x;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+a, textarea, select {
+        color:#B71111;
+	text-decoration:none;
+}
+
+a:hover { text-decoration:underline; }
+
+a img { border:none; }
+
+a { outline:0; }
+
+.limite {
+    width:1000px;
+    min-height: 768px;
+    margin:0 auto;
+    background-color: #fff;
+}
+
+#top{
+    background-image: url(../img/logo.png);
+    height: 192px;
+    font-size: 50px;
+    font-weight: bold;
+    color:#B71111;
+    text-align: center;
+}
+
+#top .margem{
+    padding-top:75px;
+    
+}
+
+#restrito{
+    width: 100%;
+    height: 5px;
+    padding-top: 20px;
+}
+
+#restrito .areaRestrita{
+    width: 140px;
+    float: right;
+    font-size: 11px;   
+}
+
+#restrito .areaRestrita table tr td{
+    font-size: 11px;
+}
+
+#conteudo{
+    width: 960px;
+    height: 280px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#conteudoSemPadding{
+    width: 960px;
+    height: 280px;
+    padding-top: 50px;
+}
+
+.zebra {
+    background-color: #ccc;
+}
+
+thead {
+    background-color: #B71111;
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#passagem {
+    float: left;
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#passagem .interno{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#formularioPassagem {
+    
+}
+
+#news{
+    float: left;
+    width: 660px;    
+}
+
+
+
+#rodape{
+   width: 1000px;
+   position: absolute; 
+   bottom: 0px; 
+   padding-bottom: 30px;
+   text-align: center;
+    
+}
+
+#rodape hr{
+  width: 50%;
+  color:#B71111;
+   
+}
+
+
